@@ -12,7 +12,7 @@ The headtracker uses 3 IR LEDs to track the user's head position, through the us
 - Universal mounting system
 
 ## Demo
-![videoDemo](Images/demo.gif)
+<video src="Images/demoShowcase.mp4" width="320" height="240" controls></video>
 
 ## Design Objectives
 - low cost
