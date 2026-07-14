@@ -1,4 +1,6 @@
-![device](Images/irTracer.mp4)
+![device](Images/trackIr.jpg)
+
+![device](Images/trackIrFrontSide.jpg)
 
 ## Overview
 The headtracker uses 3 IR LEDs to track the user's head position, through the use of opentrack, for use as computer input.
@@ -54,9 +56,10 @@ PLA was chosen as it offers:
 
 ### Mounting system
 Headset mounting system:
-![mountingSystem](Images/mountingSystem.jpg)
+![mountingSystem](Images/mounting.jpg)
+![mountingSystem](Images/mounting2.jpg)
 Battery mounting system, utilizes compliant parts which act as springs.
-![batteryMounting](Images/batteryMounting.jpg)
+![batteryMounting](Images/batteries.jpg)
 
 ## CAD
 ![cadImage](Images/finalPrototypeCad.jpg)
