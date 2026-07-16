@@ -36,7 +36,7 @@ The LEDs are arranged in a unique geometry to determine the head's 3D position v
 
 ### Power
 - 2x AAA NiMH batteries wired in series: very common and easy to swap, voltage high enough to drive logic. Offering ~2000mAh capacity. This equates to ~10h of runtime.
-- Switching boost converter: keeps the voltage at a constant level of 4.5V, this is optimal for driving 3 LEDs wired in series, LEDs stay at the same intensity, requires battery protection circuit to avoid over-discharge
+- Switching boost converter: keeps the voltage at a constant level of 6V, this is optimal for driving 3 LEDs wired in series, LEDs stay at the same intensity, requires battery protection circuit to avoid over-discharge
 - 51 ohm resistor wired in series with the LEDs, used as a current limiter
 
 ### Battery Protection Logic
