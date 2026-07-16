@@ -40,9 +40,9 @@ The LEDs are arranged in a unique geometry to determine the head's 3D position v
 - 51 ohm resistor wired in series with the LEDs, used as a current limiter
 
 ### Battery Protection Logic
-The battery protection circuit uses 1 op-amp as a comparator with a reference voltage set to 2.2V. If the input voltage drops below reference, the op-amp changes state and stops driving the MOSFET which powers the boost converter, preventing over-discharge.
+The battery protection circuit uses 1 comparitor with a reference voltage set to 2.2V. If the input voltage drops below reference, the comparitor changes state and stops driving the MOSFET which powers the boost converter, preventing over-discharge.
 
-The LM324 op-amp was used because of its:
+The LM339 comparitor was used because of its:
 - low cost
 - more than sufficient performance
 
@@ -67,7 +67,7 @@ Battery mounting system, utilizes compliant parts which act as springs.
 
 ## BOM
 - 3x SFH485P LEDs
-- 1x LM339N op-amp
+- 1x LM339N comparitor
 - 1x IRLZ44N MOSFET
 - 1x MT3608 boost converter
 - 1x 10k ohm, 3x 1k ohm, 1x 51 ohm resistors
