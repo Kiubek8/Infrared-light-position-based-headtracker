@@ -24,7 +24,7 @@ https://github.com/user-attachments/assets/57b9c2b3-ec6a-435f-9ab7-8593bbe9145c
 Opentrack - tracks the position of the LEDs and converts it into system usable computer input
 
 ## Schematic
-![schematic](Images/trackIR.svg)
+![schematic](KiCad/trackIR.svg)
 
 ## Hardware
 ### LEDs
